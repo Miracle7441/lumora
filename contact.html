@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Lumora Interiors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Lumora <span>Interiors</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:160px">
+    <div class="container">
+      <div class="eyebrow">Begin a project</div>
+      <h2 class="h2">Tell us about your space.</h2>
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h3>Studio in New York & Lisbon</h3>
+          <p>Site visits worldwide. Virtual consultations available.</p>
+          <br>
+          <p>hello@lumora.studio</p>
+          <p>+1 (212) 555-0148</p>
+        </div>
+
+        <form class="form" id="contactForm">
+          <div class="form-row">
+            <div>
+              <label>Name</label>
+              <input class="input" required placeholder="Full name">
+            </div>
+            <div>
+              <label>Email</label>
+              <input class="input" type="email" required placeholder="you@email.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label>Project Type</label>
+              <select class="input">
+                <option>Residential Design</option>
+                <option>Office Design</option>
+                <option>Space Planning</option>
+                <option>Furniture Consulting</option>
+                <option>Renovations</option>
+              </select>
+            </div>
+            <div>
+              <label>Budget</label>
+              <select class="input">
+                <option>Under $100k</option>
+                <option>$100k - $300k</option>
+                <option>$300k - $600k</option>
+                <option>$600k - $1M+</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label>Message</label>
+            <textarea class="input" required placeholder="Tell us about your space..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">
+            Send Inquiry →
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
